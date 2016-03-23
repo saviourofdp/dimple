@@ -1,0 +1,35 @@
+{
+  "name": "dimple",
+  "description": "Configurations for using NPM for dimensions project",
+  "main": "",
+  "authors": [
+    "Pete Walker"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "package",
+    "configuration",
+    "dimensions"
+  ],
+  "homepage": "https://github.com/saviourofdp/dimple",
+  "moduleType": [],
+  "private": true,
+  "dependencies": {
+      "test": "*"
+  },
+  "overrides": {
+    "test": {
+        "main":[
+            "test1.inc",
+            "test.mrs"
+        ]
+    }
+  },
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

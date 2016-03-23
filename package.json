@@ -1,0 +1,31 @@
+{
+  "name": "dimple",
+  "version": "1.0.0",
+  "description": "Configurations for using NPM for dimensions project",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saviourofdp/dimple.git"
+  },
+  "keywords": [
+    "package",
+    "configuration",
+    "dimensions"
+  ],
+  "author": "Pete Walker",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/saviourofdp/dimple/issues"
+  },
+  "homepage": "https://github.com/saviourofdp/dimple#readme",
+  "devDependencies": {
+    "bower": "*",
+    "grunt": "*",
+    "grunt-cli": "^1.1.0",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-wiredep": "*",
+    "wiredep": "*"
+  }
+}

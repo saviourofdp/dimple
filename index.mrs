@@ -1,0 +1,18 @@
+on error goto handler
+
+' bower:mrs
+#include "bower_components/test/test.mrs"
+' endbower
+
+'!
+    TODO: add your application code
+!'
+
+handler:
+if err.Number <> 0 then
+    dim message
+    message = MakeString(err.Description, " at line ", err.LineNumber)
+    debug.log(message, 4 '! LogLevels.ERROR !')
+    err.Clear()
+end if
+
