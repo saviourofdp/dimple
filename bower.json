@@ -17,14 +17,6 @@
   "dependencies": {
       "test": "*"
   },
-  "overrides": {
-    "test": {
-        "main":[
-            "test1.inc",
-            "test.mrs"
-        ]
-    }
-  },
   "ignore": [
     "**/.*",
     "node_modules",
